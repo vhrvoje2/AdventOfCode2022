@@ -1,7 +1,7 @@
 from timeit import Timer
 
 placeholder = []
-with open(".txt", "r") as file:
+with open("input.txt", "r") as file:
     for item in file.readlines():
         placeholder.append(item.strip())
 
